@@ -1,5 +1,5 @@
  Narrative, Toxicity & Risk Scoring Pipeline
-### Data Science Capstone Project
+Data Science Capstone Project
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project builds a reproducible data science pipeline to detect hate speech and harmful narratives in social media messages using Natural Language Processing (NLP) and Machine Learning.
 
@@ -21,7 +21,7 @@ The pipeline:
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 capstone-hate-speech/
