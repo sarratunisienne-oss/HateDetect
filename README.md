@@ -10,7 +10,7 @@
 
 ## 📌 Project Overview
 
-This project builds a **reproducible data science pipeline** that detects hate speech and harmful narratives in social media messages using Natural Language Processing (NLP) and Machine Learning.
+This project builds a reproducible data science pipeline to detect hate speech and harmful narratives in social media messages using Natural Language Processing (NLP) and Machine Learning.
 
 The pipeline:
 - Analyses text patterns and engagement behaviour
@@ -18,7 +18,6 @@ The pipeline:
 - Classifies content by toxicity and hate speech using transformer models
 - Applies **Value Sentiment Analysis** based on Moral Foundations Theory
 - Trains a predictive risk scoring model
-- Delivers findings through a web app and a policy-oriented concept note (EU Digital Services Act framing)
 
 ---
 
@@ -127,7 +126,7 @@ streamlit run app.py
 - Engineers text features (word count, mentions, hashtags, URLs)
 - Produces 5 publication-quality visualisations
 
-**Key finding:** The dataset is heavily imbalanced (77% offensive). Hate speech annotator agreement is slightly lower than other classes, reflecting genuine label ambiguity.
+**Key finding:** The dataset is heavily imbalanced (77% offensive). The hate speech annotator agreement is slightly lower than for other classes, reflecting genuine label ambiguity.
 
 ---
 
@@ -141,7 +140,7 @@ streamlit run app.py
 ---
 
 ### 📓 03_model.ipynb — Predictive Risk Model
-- Engineers features from EDA + NLP outputs
+- Engineers' features from EDA + NLP outputs
 - Trains baseline Logistic Regression classifier
 - Trains improved Random Forest / XGBoost model
 - Evaluates with cross-validation, ROC-AUC, F1, Precision-Recall
@@ -223,18 +222,6 @@ pip install -r requirements.txt
 
 ---
 
-## 📁 Policy Output
-
-A **concept note** addressed to the EU Commission frames the findings under the **Digital Services Act (DSA)**:
-
-- **The Problem:** Levels of hate speech and coordinated harmful narratives detected
-- **The Regulatory Angle:** Systemic risk under DSA Article 34; platform transparency obligations
-- **The Methodology:** AI-assisted narrative and toxicity detection pipeline
-- **The Intervention:** Proposed 6-month AI auditing project
-
-Full note in `reports/concept_note.md`
-
----
 
 ## 👤 Author
 
